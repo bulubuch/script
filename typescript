@@ -1,0 +1,137 @@
+Script started on Wed Dec  4 14:09:35 2019
+[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jbulu@pc100 script % [K[?2004hrrfdssssscript man script[10Dls        [8Dman script[?2004l
+[?1049h[?1h=mdoc warning: .Fx: Unknown FreeBSD version `9.2' (#188)
+
+SCRIPT(1)                 BSD General Commands Manual                SCRIPT(1)
+
+[1mNAME[0m
+     [1mscript[0m -- make typescript of terminal session
+
+[1mSYNOPSIS[0m
+     [1mscript[0m [[1m-adkpqr[0m] [[1m-F[0m [4mpipe[24m] [[1m-t[0m [4mtime[24m] [[4mfile[24m [[4mcommand[24m [4m...[24m]]
+
+[1mDESCRIPTION[0m
+     The [1mscript[0m utility makes a typescript of everything printed on your ter-
+     minal.  It is useful for students who need a hardcopy record of an inter-
+     active session as proof of an assignment, as the typescript file can be
+     printed out later with lpr(1).
+
+     If the argument [4mfile[24m is given, [1mscript[0m saves all dialogue in [4mfile[24m.  If no
+     file name is given, the typescript is saved in the file [4mtypescript[24m.
+
+     If the argument [4mcommand[24m is given, [1mscript[0m will run the specified command
+     with an optional argument vector instead of an interactive shell.
+
+     The following options are available:
+
+:[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                [0m[27m[24m[Jbulu@pc100 script % [K[?2004hc lls -la /etc[1m/[0m[0m/
+[Jafpovertcp.cfg                         ntp.conf
+aliases@                               ntp_opendirectory.conf
+aliases.db                             openldap/
+apache2/                               pam.d/
+asl/                                   passwd
+asl.conf                               paths
+auto_home                              paths.d/
+auto_master                            periodic/
+autofs.conf                            pf.anchors/
+bashrc                                 pf.conf
+bashrc_Apple_Terminal                  pf.os
+com.apple.screensharing.agent.launchd  php-fpm.conf.default
+csh.cshrc                              php-fpm.d/
+csh.login                              php.ini.default
+csh.logout                             postfix/
+cups/                                  ppp/
+defaults/                              profile
+emond.d/                               protocols
+find.codes                             racoon/
+fstab.hd                               rc.common
+ftpusers                               rc.netboot
+gettytab                               resolv.conf@
+group                                  rmtab
+hosts                                  rpc
+hosts.equiv                            rtadvd.conf
+irbrc                                  security/
+kern_loader.conf                       services
+krb5.keytab                            shells
+localtime@                             snmp/
+locate.rc                              ssh/
+mail.rc                                ssl/
+man.conf                               sudo_lecture
+manpaths                               sudoers
+manpaths.d/                            sudoers.d/
+master.passwd                          syslog.conf
+nanorc                                 ttys
+networks                               wfs/
+newsyslog.conf                         xtab
+newsyslog.d/                           zprofile
+nfs.conf                               zshrc
+notify.conf                            
+[0m[27m[24m[Jbulu@pc100 script % ls -la /etc/[Kdev faults[1m/[0m[0m/periodic.conf[1m [0m[0m                           dev[1m/[0m[0m/
+zsh: do you wish to see all 317 possibilities (159 lines)? n[J[A[0m[27m[24m[20Cls -la /dev/[Ktty
+[Jzsh: do you wish to see all 132 possibilities (66 lines)? y[J[Jtty%                          ttyse%
+tty.Bluetooth-Incoming-Port%  ttysf%
+ttyp0%                        ttyt0%
+ttyp1%                        ttyt1%
+ttyp2%                        ttyt2%
+ttyp3%                        ttyt3%
+ttyp4%                        ttyt4%
+ttyp5%                        ttyt5%
+ttyp6%                        ttyt6%
+ttyp7%                        ttyt7%
+ttyp8%                        ttyt8%
+ttyp9%                        ttyt9%
+ttypa%                        ttyta%
+ttypb%                        ttytb%
+ttypc%                        ttytc%
+ttypd%                        ttytd%
+ttype%                        ttyte%
+ttypf%                        ttytf%
+ttyq0%                        ttyu0%
+ttyq1%                        ttyu1%
+ttyq2%                        ttyu2%
+ttyq3%                        ttyu3%
+ttyq4%                        ttyu4%
+ttyq5%                        ttyu5%
+ttyq6%                        ttyu6%
+ttyq7%                        ttyu7%
+ttyq8%                        ttyu8%
+ttyq9%                        ttyu9%
+ttyqa%                        ttyua%
+ttyqb%                        ttyub%
+ttyqc%                        ttyuc%
+ttyqd%                        ttyud%
+ttyqe%                        ttyue%
+ttyqf%                        ttyuf%
+ttyr0%                        ttyv0%
+ttyr1%                        ttyv1%
+ttyr2%                        ttyv2%
+ttyr3%                        ttyv3%
+ttyr4%                        ttyv4%
+ttyr5%                        ttyv5%
+ttyr6%                        ttyv6%
+ttyr7%                        ttyv7%
+ttyr8%                        ttyv8%
+ttyr9%                        ttyv9%
+ttyra%                        ttyva%
+ttyrb%                        ttyvb%
+ttyrc%                        ttyvc%
+ttyrd%                        ttyvd%
+ttyre%                        ttyve%
+ttyrf%                        ttyvf%
+ttys0%                        ttyw0%
+ttys000%                      ttyw1%
+ttys001%                      ttyw2%
+ttys1%                        ttyw3%
+ttys2%                        ttyw4%
+ttys3%                        ttyw5%
+ttys4%                        ttyw6%
+ttys5%                        ttyw7%
+ttys6%                        ttyw8%
+ttys7%                        ttyw9%
+ttys8%                        ttywa%
+ttys9%                        ttywb%
+ttysa%                        ttywc%
+ttysb%                        ttywd%
+ttysc%                        ttywe%
+ttysd%                        ttywf%
+[0m[27m[24m[Jbulu@pc100 script % ls -la /dev/tty[K           l  ggit add -A[?2004l
